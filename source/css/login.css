@@ -1,0 +1,91 @@
+/* Campos de Login/Registro */
+
+label,
+button {
+  font-size: 18px;
+  line-height: 25px;
+  font-family: "Nunito", sans-serif, Helvetica;
+}
+
+img {
+  margin: 0 auto 40px;
+}
+
+.cadastro h2 {
+  font-size: 36px;
+  line-height: 60px;
+}
+
+.btn:hover {
+  color: #c5851e;
+  background: #bdb294;
+}
+
+/* Login */
+
+.login {
+  width: 100%;
+  padding: 60px 0 30px;
+  text-align: center;
+  background: #0b0402;
+}
+
+.container-form {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.login {
+  color: #bdb294;
+}
+
+.container-form form {
+  text-align: initial;
+}
+
+.login form input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  margin: 5px auto 20px;
+  padding: 5px;
+  font-size: 14px;
+  line-height: 25px;
+  color: #bdb294;
+  border: 3px solid #c5851e;
+  background: none;
+  outline: none;
+}
+
+a {
+  font-family: "Nunito", sans-serif, Helvetica;
+  color: #bdb294;
+}
+
+/* Quebra da página */
+
+.quebra {
+  padding: 30px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.quebra h3 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+/* Cadastro */
+
+.cadastro {
+  padding: 50px 0 50px;
+}
+
+.cadastro h2:after {
+  display: block;
+  content: "";
+  background: #bdb294;
+  width: 50px;
+  height: 3px;
+  margin: 0 auto 40px auto;
+}

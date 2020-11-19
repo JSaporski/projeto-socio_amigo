@@ -1,0 +1,95 @@
+.loja_do_time {
+  width: 100%;
+  background: #0b0402;
+}
+
+.pesquisa_marca {
+  padding: 53px 40px;
+  background: #c5851e;
+}
+
+.tenis,
+.camisas,
+.calças {
+  margin-bottom: 40px;
+}
+
+.tenis h3,
+.camisas h3,
+.calças h3 {
+  margin-bottom: 15px;
+  padding: 5px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 25px;
+  color: #bdb294;
+  background: #0b0402;
+}
+
+.tenis ul li,
+.camisas ul li,
+.calças ul li {
+  margin-bottom: 10px;
+  font-family: "Nunito", Arial, monospace;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.tenis ul li a,
+.camisas ul li a,
+.calças ul li a {
+  color: #0b0402;
+}
+
+.tenis ul li a:hover {
+  color: #5e190f;
+}
+
+.calças ul li a:hover {
+  color: #5e190f;
+}
+
+.camisas ul li a:hover {
+  color: #5e190f;
+}
+
+/* Produtos Loja */
+
+.loja_produtos {
+  padding: 35px 0;
+}
+
+.loja_produtos div {
+  margin-bottom: 40px;
+}
+
+.loja_produtos div:nth-child(odd) {
+  margin-left: 40px;
+}
+
+.loja_produtos div:nth-child(even) {
+  margin-left: 40px;
+}
+
+.loja_produtos div a p {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #bdb294;
+}
+
+.loja_produtos div a p:hover {
+  color: #c5851e;
+}
+
+.loja_do_time::after {
+  position: absolute;
+  top: 1024px;
+  right: 558px;
+  content: "";
+  width: 1px;
+  display: block;
+  height: 714px;
+  border: 1px;
+  background: #5e190f;
+}

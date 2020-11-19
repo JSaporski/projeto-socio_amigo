@@ -1,0 +1,34 @@
+.plano_torcedor {
+  padding: 60px 0;
+  background: #fff;
+}
+
+.plano_torcedor .plano_exemplo {
+  margin: 0 0 0 92px;
+  float: left;
+}
+
+.plano_premium::after {
+  position: absolute;
+  top: -14px;
+  left: 755px;
+  padding: 8px 15px;
+  font-family: "Nunito", Arial, monospace;
+  color: #bdb294;
+  content: "Recomendado";
+  border-radius: 4px;
+  background: #d40905;
+}
+
+.plano_basico p,
+.plano_premium p {
+  margin-bottom: 30px;
+}
+
+.plano_basico .btn-call:hover {
+  background: #000;
+}
+
+.plano_premium .btn-call:hover {
+  background: #000;
+}

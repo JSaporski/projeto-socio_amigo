@@ -1,0 +1,24 @@
+.noticias {
+  padding: 100px 0;
+}
+
+.grupo-noticia-1 p {
+  margin-top: 10px;
+  line-height: 20px;
+}
+
+.linha-horizontal {
+  width: 940px;
+  margin: 30px auto;
+  border: 1px solid #1b1b1b;
+}
+
+.grupo-noticia-2 p {
+  margin-bottom: 25px;
+  line-height: 20px;
+}
+
+.grupo-noticia-3 p {
+  margin-top: 10px;
+  line-height: 20px;
+}
